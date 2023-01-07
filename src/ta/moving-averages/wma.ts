@@ -24,7 +24,7 @@ export class WMA {
     this.buffer.push(price);
 
     if (!this.buffer.filled) {
-      return NaN;
+      return;
     }
 
     let result = 0;

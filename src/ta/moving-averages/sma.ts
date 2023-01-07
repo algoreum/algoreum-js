@@ -22,7 +22,7 @@ export class SMA {
     this.sum += price;
 
     if (!this.buffer.filled) {
-      return NaN;
+      return;
     }
 
     this.next = (price: number) => {
