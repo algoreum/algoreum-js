@@ -17,7 +17,7 @@ export class WWS {
       this.previousValue += price;
       this.sumCount++;
 
-      return NaN;
+      return;
     }
 
     if (this.sumCount === this.period) {

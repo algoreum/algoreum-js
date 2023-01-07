@@ -35,7 +35,7 @@ export class ADX {
       this.previousLow = low;
       this.previousClose = close;
 
-      return NaN;
+      return;
     }
 
     let pDM = 0;
@@ -65,7 +65,7 @@ export class ADX {
     this.previousClose = close;
 
     if (avgPDI === undefined || avgNDI === undefined) {
-      return NaN;
+      return;
     }
 
     const pDI = (avgPDI * 100) / atr;
