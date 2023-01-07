@@ -1,6 +1,6 @@
-import { getTrueRange } from '../providers/true-range';
-import { WEMA } from './wema';
-import { WWS } from './wws';
+import { getTrueRange } from '../../providers/true-range';
+import { WEMA } from '../moving-averages/wema';
+import { WWS } from '../moving-averages/wws';
 
 /**
  * ADX values help traders identify the strongest and most profitable trends to trade.

@@ -1,6 +1,6 @@
-import { EMA } from '../ta/ema';
-import { SMA } from '../ta/sma';
-import { WEMA } from '../ta/wema';
+import { EMA } from '../ta/moving-averages/ema';
+import { SMA } from '../ta/moving-averages/sma';
+import { WEMA } from '../ta/moving-averages/wema';
 import { Sampler, IndicatorConstructor } from './sampler';
 
 /**

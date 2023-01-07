@@ -1,4 +1,4 @@
-import { EMA } from './ema';
+import { EMA } from './moving-averages/ema';
 
 /*
 How work MACD?

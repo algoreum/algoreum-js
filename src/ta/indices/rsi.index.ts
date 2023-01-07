@@ -1,4 +1,4 @@
-import { AvgChangeProvider } from '../providers/gain';
+import { AvgChangeProvider } from '../../providers/gain';
 
 /**
  * The relative strength index (RSI) is a momentum indicator used in technical analysis

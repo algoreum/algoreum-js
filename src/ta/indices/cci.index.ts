@@ -1,5 +1,5 @@
-import { MeanDeviationProvider } from '../providers/mean-deviation';
-import { SMA } from './sma';
+import { MeanDeviationProvider } from '../../providers/mean-deviation';
+import { SMA } from '../moving-averages/sma';
 
 /**
  * The CCI, or Commodity Channel Index, was developed by Donald Lambert,

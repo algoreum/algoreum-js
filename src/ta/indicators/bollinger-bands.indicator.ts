@@ -1,5 +1,5 @@
-import { SMA } from './sma';
-import { StandardDeviation } from './standard-deviation';
+import { SMA } from '../moving-averages/sma';
+import { StandardDeviation } from '../standard-deviation';
 export class BollingerBands {
   private sd: StandardDeviation;
   private sma: SMA;

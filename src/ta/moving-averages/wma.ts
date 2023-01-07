@@ -1,4 +1,4 @@
-import { CircularBuffer } from '../providers/circular-buffer';
+import { CircularBuffer } from '../../providers/circular-buffer';
 
 /**
  * Weighted moving average (WMA) assign a heavier weighting to more current data points since they are more relevant than data points

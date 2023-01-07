@@ -1,4 +1,4 @@
-import { CircularBuffer } from '../providers/circular-buffer';
+import { CircularBuffer } from '../../providers/circular-buffer';
 
 /**
  * The Rate-of-Change (ROC) indicator, which is also referred to as simply Momentum,

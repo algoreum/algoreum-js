@@ -1,4 +1,4 @@
-import { SMA } from '../ta/sma';
+import { SMA } from '../ta/moving-averages/sma';
 import { CircularBuffer } from './circular-buffer';
 
 export class Correlation {

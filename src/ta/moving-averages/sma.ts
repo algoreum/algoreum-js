@@ -7,7 +7,7 @@
 //=>   │       └─(2+3+4+5)/4
 //=>   └─(1+2+3+4)/4
 
-import { CircularBuffer } from '../providers/circular-buffer';
+import { CircularBuffer } from '../../providers/circular-buffer';
 
 export class SMA {
   private buffer: CircularBuffer;

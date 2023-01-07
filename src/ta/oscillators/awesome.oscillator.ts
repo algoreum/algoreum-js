@@ -1,4 +1,4 @@
-import { SMA } from './sma';
+import { SMA } from '../moving-averages/sma';
 
 /**
  Awesome Oscillator (AO) is an indicator that is non-limiting oscillator,

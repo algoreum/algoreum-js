@@ -1,6 +1,6 @@
-import { PercentRank } from '../providers/percent-rank';
-import { ROC } from './roc';
-import { RSI } from './rsi';
+import { PercentRank } from '../../providers/percent-rank';
+import { ROC } from '../indicators/roc.indicator';
+import { RSI } from './rsi.index';
 
 /**
  * Connors RSI (CRSI) uses the above formula to generate a value between 0 and 100.

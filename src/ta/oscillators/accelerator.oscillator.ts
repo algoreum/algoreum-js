@@ -1,5 +1,5 @@
-import { SMA } from './sma';
-import { AO } from './ao';
+import { SMA } from '../moving-averages/sma';
+import { AO } from './awesome.oscillator';
 
 /**
  The Accelerator Oscillator (AC indicator) is a technical analysis tool that helps

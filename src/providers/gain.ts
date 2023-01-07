@@ -1,4 +1,4 @@
-import { SMMA } from '../ta/smma';
+import { SMMA } from '../ta/moving-averages/smma';
 
 export class AvgChangeProvider {
   private avgGain: SMMA;

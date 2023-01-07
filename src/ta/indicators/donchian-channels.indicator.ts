@@ -1,5 +1,5 @@
-import { CircularBuffer } from '../providers/circular-buffer';
-import { getMax, getMin } from '../utils';
+import { CircularBuffer } from '../../providers/circular-buffer';
+import { getMax, getMin } from '../../utils';
 
 /**
  * Donchian channels were developed by Richard Donchian, a pioneer of mechanical trend following systems.

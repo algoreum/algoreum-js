@@ -1,12 +1,12 @@
-import { SMMA } from './smma';
-import { EMA } from './ema';
-import { WEMA } from './wema';
-import { LWMA } from './lwma';
-import { SMA } from './sma';
-import { EWMA } from './ewma';
-import { RMA } from './rma';
-import { getTrueRange } from '../providers/true-range';
-import { MovingAverage } from '../enums/MovingAverage.enum';
+import { SMMA } from '../moving-averages/smma';
+import { EMA } from '../moving-averages/ema';
+import { WEMA } from '../moving-averages/wema';
+import { LWMA } from '../moving-averages/lwma';
+import { SMA } from '../moving-averages/sma';
+import { EWMA } from '../moving-averages/ewma';
+import { RMA } from '../moving-averages/rma';
+import { getTrueRange } from '../../providers/true-range';
+import { MovingAverage } from '../../enums/MovingAverage.enum';
 
 export class ATR {
   private previousClose: number;

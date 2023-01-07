@@ -1,4 +1,4 @@
-import { sum } from '../utils';
+import { sum } from '../../utils';
 
 /**
  * A linearly weighted moving average (LWMA) is a moving average calculation that more heavily weights recent price data.

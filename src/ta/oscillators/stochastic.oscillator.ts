@@ -1,6 +1,6 @@
-import { getMin, getMax } from '../utils';
-import { SMA } from './sma';
-import { CircularBuffer } from '../providers/circular-buffer';
+import { getMin, getMax } from '../../utils';
+import { SMA } from '../moving-averages/sma';
+import { CircularBuffer } from '../../providers/circular-buffer';
 
 /**
  * A stochastic oscillator is a momentum indicator comparing a particular closing price

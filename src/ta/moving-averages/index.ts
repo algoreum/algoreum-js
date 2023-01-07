@@ -1,0 +1,9 @@
+export { EMA } from './ema';
+export { EWMA } from './ewma';
+export { LWMA } from './lwma';
+export { RMA } from './rma';
+export { SMA } from './sma';
+export { SMMA } from './smma';
+export { WEMA } from './wema';
+export { WMA } from './wma';
+export { WWS } from './wws';

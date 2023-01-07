@@ -1,5 +1,5 @@
-import { MovingAverage } from '../enums/MovingAverage.enum';
-import { ATR } from './atr';
+import { MovingAverage } from '../../enums/MovingAverage.enum';
+import { ATR } from './atr.indicator';
 /**
  * SuperTrend indicator is one of the hybrid custom tools that show the current trend in the market.
  * The indicator name stands for Multi Time Frame SuperTrend.
