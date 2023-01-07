@@ -1,0 +1,6 @@
+export enum PivotMode {
+  CLASSIC = 'CLASSIC',
+  CAMARILLA = 'CAMARILLA',
+  WOODIE = 'WOODIE',
+  FIBONACCI = 'FIBONACCI'
+}
