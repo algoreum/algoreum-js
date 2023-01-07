@@ -17,7 +17,7 @@ export class BollingerBands {
     this.fill++;
 
     if (this.fill !== this.period) {
-      return NaN;
+      return;
     }
 
     const lower = middle - this.stdDev * sd;
