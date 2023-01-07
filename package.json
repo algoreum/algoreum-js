@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Technical Analysis Library for TypeScript",
   "main": "lib/algoreum.cjs.js",
   "module": "lib/algoreum.esm.js",
